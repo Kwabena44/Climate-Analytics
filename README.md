@@ -32,6 +32,7 @@ q is the moving average part of the model. This allows us to set the error of ou
  
  
  Results 
+ 
  The one-step ahead forecast produced a mean squared error of 0.12 whereas the mean squared error for the dynamic forecast is 0.18. I further run the model 300 steps ahead, 
  which showed a general upward trend in average temperature, which corresponds with rising global temperatures worldwide. Further research could look at using time series forecast 
  as a risk management tool to be used to hedge against weather related risks. For e.g Weather derivates. 
