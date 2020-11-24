@@ -17,7 +17,7 @@ Approach
 The dataset had four fields i.e is Date, Rainfall, Tmin and Tmax. Dataset contained 23,276 rows with missing values observed in some fields. To determine the Average temperature observed over 
 this period, the data was first cleaned and missing values were imputed using the mean of each field. After cleaning and filling missing data, a new column; AvgTemp is created. This column
 holds the average temperature of Accra. This is done by adding both the Min Temp and Max Temp and dividing it by 2. The data points are then plotted to observe outliers. Outliers are removed using the
-inter-quartile range. Next, the dataset is tested for a stationarity using the augmented dickey fuller test. P-value obtained is less than 0.05 has data is stationary. 
+inter-quartile range. Next, the dataset is tested for a stationarity using the augmented dickey fuller test. P-value obtained is less than 0.05 which means data is stationary. 
 The AutoregRessive Integrated Moving Average (ARIMA) is used in this forecast. 
 There are three distinct integers (p, d, q) that are used to parametrize ARIMA models. Because of that, ARIMA models are denoted with the notation ARIMA(p, d, q). Together these three parameters account for seasonality, trend, and noise in datasets:
 
